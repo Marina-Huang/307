@@ -1,0 +1,23 @@
+class1_dict = 
+{
+  "total": 1
+  "age":
+    {
+      "10-19": 1,
+      "20-29": 1,
+      ...
+    },
+  "menopause":
+    {
+      "lt40": 1,
+      ...
+    }
+}
+
+class2_dict =
+
+x = ["10-19", "lt40", ..., class1]
+
+class1_dict["total"] ++
+class1_dict["age"][x[0]] ++
+class1_dict["menopause"][x[1]] ++
